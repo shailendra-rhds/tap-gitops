@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  argocd/app-name: shsingh-tap
+  janus-idp.io/tekton: shsingh-tap
+  backstage.io/kubernetes-id: shsingh-tap
+  backstage.io/kubernetes-namespace: shsingh-tap 
+  app.kubernetes.io/part-of: shsingh-tap
+resources:
+  - deployment.yaml
+  - route.yaml
+  - service.yaml
