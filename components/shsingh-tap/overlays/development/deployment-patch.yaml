@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: tssc-quay-quay-tssc-quay.apps.shailendra14k.in/tssc/tap:e633b1168863e01150c6b20dd17333b8f58f02da@sha256:32e0df2f60d5b5ab3cd44db04c32b88f77dac1bdf1d218a0d264f35569f1fd78
+        - image: tssc-quay-quay-tssc-quay.apps.shailendra14k.in/tssc/tap:9bf214ccd2d510e99deac5ed35987e2bf4aaf9e1@sha256:925222b41aeaddcb29473f82c231710b7710cbf916517c44973cbd31c3b1009f
           name: container-image
